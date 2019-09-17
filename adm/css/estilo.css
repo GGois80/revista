@@ -1,0 +1,75 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+ }
+h2{text-align: center;}
+ .menu{
+   width: 100%;
+   height: 76px;
+   background-color: #222;
+   font-family: 'Arial';
+ }
+
+ .menu ul {
+   list-style: none;
+   position: relative;
+ }
+
+ .menu ul li {
+   width: 240px;
+   padding-top: 20px;
+   float: left;
+   }
+
+  .menu a {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+  }
+
+ .menu ul ul {
+   position: absolute;
+   visibility: hidden;
+ }
+
+ .menu ul li:hover ul {
+   visibility: visible;
+ }
+
+ .menu a:hover{
+   background-color: #f4f4f4;
+   transition-duration: 1.1s;
+   color: #555;
+ }
+
+ .menu ul ul li {
+   float: none;
+   border-bottom: solid 1px #ccc;
+ }
+
+ menu ul ul li a {
+   background-color: #069;
+ }
+ fieldset{width:100%;max-width: 400px;margin-left:20px;}
+ form p{padding:4px 20px;}
+ /*Fim edit dos formularios*/
+/**/
+ .padding{padding: 20px;}
+ .centro{text-align: center;}
+ button{padding:5px 20px;}
+ .main_login input[type=text],input[type=password], select, textarea{padding: 10px 5px; width: 100%; border: 1px solid #666;}
+/*tabela de usuarios*/
+table{width:100%;max-width:500px;margin:20px auto;border-collapse:collapse;border:1px solid black;text-align: left;}
+td,th{border:1px solid black;padding:8px 40px 8px 20px;}
+/*foto do jornalista*/
+.imgjorn img{height:160px;width:200px;}
+.imgjorn{text-align: center;}
+/*******fim de cima*******/
+.upcom textarea{width: 80%;height:100px; resize:none;}
+.upcom h3{text-align: center;}
+/*comentarios*/
+.comentarios{width: 100%;max-width: 700px;height: 300px;border:1px solid black;overflow: auto;margin-left:20px;}
